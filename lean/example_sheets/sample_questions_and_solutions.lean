@@ -49,7 +49,6 @@ begin
   sorry
 end
 
-
 -- need basic questions about sequences, but I don't know the idiomatic way
 -- to talk about limits of sequences in Lean
 
