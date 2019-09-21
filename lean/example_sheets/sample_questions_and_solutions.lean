@@ -1,3 +1,8 @@
+-- I am a .lean file. Download me onto your computer, and then
+-- 
+-- https://leanprover-community.github.io/lean-web-editor/
+
+
 -- Import mathlib's real number module.
 import data.real.basic
 
@@ -23,12 +28,17 @@ begin
   sorry
 end
 
-lemma question3 : ∀ (a b c : ℝ), (c ≠ 0) → a / c + b / c = (a + b) / c :=
+lemma question3 : ∀ x y : ℝ, (x + y) ^ 3 = x ^ 3 + 3 * x ^ 2 + 3 * x + 1 :=
 begin
   sorry
 end
 
-lemma question4 : ∀ (a b c : ℝ), a / c + b / c = (a + b) / c :=
+lemma question4 : ∀ (a b c : ℝ), (c ≠ 0) → a / c + b / c = (a + b) / c :=
+begin
+  sorry
+end
+
+lemma question5 : ∀ (a b c : ℝ), a / c + b / c = (a + b) / c :=
 begin
   sorry
 end
@@ -36,3 +46,5 @@ end
 
 -- need basic questions about sequences, but I don't know the idiomatic way
 -- to talk about limits of sequences in Lean
+
+#check limit.is_limit
