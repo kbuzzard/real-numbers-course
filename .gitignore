@@ -1,3 +1,4 @@
 *.olean
 /lean/_target
 /lean/leanpkg.path
+/lean/.gitignore
