@@ -1,9 +1,18 @@
--- I am a .lean file. Download me onto your computer, and then
--- 
--- https://leanprover-community.github.io/lean-web-editor/
+/- 
 
+   I am a .lean file about the real numbers. You can interact with me online at
+   TinyURL.com/real-numbers-in-lean
+ 
+   or if you have lean and mathlib installed on your computer,
+   you can download me from https://github.com/kbuzzard/real-numbers-course
+   and open me in VS Code on your computer, for a faster experience. 
 
--- Import mathlib's real number module.
+   See the currently non-existing documentation at the link above;
+   until it's written nobody will have a chance of being
+   able to do anything.
+-/
+
+--  Import mathlib's real number module.
 import data.real.basic
 
 -- Now we have a version of the real numbers which mathematicians
@@ -14,9 +23,6 @@ import data.real.basic
 import tactic.linarith 
 
 -- Now we have some really cool tactics
--- Note -- if you're trying this online you just got errors :-(
-
-
 
 lemma question1 : (2 : ℝ) + (2 : ℝ) = (4 : ℝ) :=
 begin
